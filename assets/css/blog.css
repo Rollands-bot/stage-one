@@ -1,0 +1,267 @@
+  /* My Project */
+  
+  .myproject-form {
+    width: 450px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.myproject-form div{
+    margin-top: 10px;
+}
+
+.myproject-form input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-sizing:border-box;
+    padding:8px;
+}
+
+.myproject-form h1 {
+    text-align: center;
+}
+
+.myproject-form textarea {
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    height: 100px;
+    border: 1px solid #dbdbdb;
+    box-sizing:border-box;
+}
+
+.myproject-form hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.submit {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.submit button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+.last {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.last button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+.input-date {
+    display: flex;
+}
+
+.input-checkbox {
+    padding: 0px;
+}
+
+.input-checkbox div{
+    display: flex; 
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+    margin: auto;
+}
+
+.input-checkbox input{
+    box-shadow: none;
+    width: 20px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.myproject-list {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+
+.myproject-list h2 {
+    text-align: center;
+}
+
+.myproject-cardlist {
+    display: flex;
+    flex-wrap: wrap ;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.myproject-card {
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #aea4a4; 
+}
+
+.bungkus {
+  padding: 10px;
+  margin: 20px;
+}
+
+.myproject-card div button {
+text-decoration: none;
+font-size: 18px;
+background-color: black;
+padding: 6px 24px;
+border-radius: 24px;
+color: white;
+}
+
+.myproject-card div button:hover {
+  background-color: orangered;
+}
+
+.myproject-card img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    padding-top: 4%;
+    width: 90%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.myproject-card a {
+    justify-content: start;
+    display: flex;
+    align-items: baseline;
+    margin-left: 5%;
+    padding-top: 3%;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.myproject-card p {
+    justify-content: start;
+    display: flex;
+    align-items: baseline;
+    margin-left: 5%;
+}
+
+.myproject-card article {
+    justify-content: start;
+    display: flex;
+    align-items: baseline;
+    margin-left: 5%;
+}
+
+.desc-project {
+    text-align: justify;
+}
+
+.action {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    color: white;  
+}
+
+.tech-used {    
+  justify-content: start;
+  display: flex;
+  align-items: baseline;
+  margin-left: 5%;
+  padding-top: 25px;
+  font-size: x-large;
+  display: inline-flex;
+  cursor: pointer;
+  border: none;
+}
+
+.tech-used i {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tech-used img {
+    width: 30px;
+    margin: 10px;
+}
+.detail-container {
+    background: #fff;
+    margin: auto;
+    
+}
+
+.header-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-photo {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+.technologies-used div{
+    display: flex; 
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+.technologies-used p {
+    margin-left: 10px;
+}
+.detail-desc {
+    padding: 20px;
+    margin: 30px;
+}
+.duration img {
+    margin-top: 10px;
+    margin-right: 10px;
+   
+}
+
+.judul {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.judul p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.judul h3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}

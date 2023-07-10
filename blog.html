@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    
+</head>
+<body>
+    <!-- START NAVBAR -->
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="assets/img/logo.png" alt="logo"/>
+                    </li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="blog.html">My Project</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="contactMe.html">Contact Me</a>
+            </div>
+        </nav>
+
+    <!-- END NAVBAR -->
+
+   <!-- PROJECT -->
+    
+   <div class="myproject-form">
+    <form onsubmit="getProject(event)">
+    <h1>ADD MY PROJECT</h1>
+    <div>
+        <label>Project Name</label>
+        <input type="text" id="project-name" placeholder="Enter the Project Name">
+    </div>
+    <div class="input-date">
+        <div>
+            <label>Start Date</label>
+            <input class="date" type="date" id="project-start">
+        </div>
+        <div>
+            <label>End Date</label>
+            <input class="date" type="date" id="project-end">
+        </div>
+    </div>
+    <div>
+        <label>Description</label>
+        <textarea id="project-desc" placeholder="Enter Description not more than 20 word"></textarea>
+    </div>
+
+    <div class="input-checkbox">
+        <label>Technologies</label>
+        <div >
+            <div>
+                <input type="checkbox" value="Javascript" id="javascript">
+                <p>Javascript</p>
+            </div>
+            <div>
+                <input type="checkbox" value="Bootstrap" id="bootstrap">
+                <p>Bootstrap</p>
+            </div>
+        </div>
+        <div class="checkbox-right">
+            <div>
+                <input type="checkbox" value="React" id="react"> 
+                <p>React Js</p>
+            </div>
+            <div>
+                <input type="checkbox" value="Golang" id="golang"> 
+                <p>Golang</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="input-upload">
+        <label>Upload Image</label>
+        <input type="file" id="img-file">
+    </div>
+    <div class="submit">
+        <button type="button" onclick="resetForm()">Clear</button>
+        <button>Submit</button>
+    </div>
+    <hr/>
+</form>
+</div>
+
+<div class="myproject-list">
+    <h2>My Project</h2>
+    <div class="myproject-cardlist" id="project-list">
+        <div class="myproject-card">
+            <div class="bungkus">
+            <img src="https://source.unsplash.com/random" alt="poto unsplash" style="height: 200px;" alt="post">
+            <a style="font-weight: bold; cursor: pointer;" href="blog-detail.html">Dumbways Mobile App - 2023</a>
+            <p style="color: #8d8d8d;">durasi : 3 bulan</p>
+            <div class="desc-project">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minima natus et, aut accusamus officiis?</p>    
+    </div>
+
+<!-- End Project -->
+
+            <!-- Technologies -->
+
+            <div class="tech-used">
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-golang"></i>
+            </div>
+            
+            <!-- End Technologies -->
+            
+            <!-- Click -->
+            
+            <div class="last">
+                <button>edit</button>
+                <button>delete</button>
+            </div>
+        </div>       
+            
+            <!-- End Click -->
+
+        </div>  
+    </div>
+</div>
+
+<!-- Script JS -->
+
+<script src="assets/js/blog.js"></script>
+
+<!-- End Script JS -->
+
+</body>
+</html>

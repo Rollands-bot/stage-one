@@ -1,0 +1,126 @@
+ /* homepage */
+ .kartu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 100px 32px 100px;
+    padding: 24px 76px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+.kartu-left {
+  text-align: left;
+  width: 580px;
+}
+
+.contact  {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding: 6px 24px;
+    border-radius: 24px;
+    color: white;
+}
+
+.button a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.curiculum {
+    margin-left: 16px;
+}
+
+.curiculum a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.curiculum  i {
+    margin-left: 8px;
+    color: #000000;
+}
+
+.kartu-right {  
+    text-align: center;
+}
+
+.kartu p {
+  text-align: left;
+}
+
+.image {
+    background-color: white;
+    line-height: 1.4;
+    color: #333;
+    border-radius: 0.5rem;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .self {
+    padding: 8px 26px 8px;
+  }
+
+  .self h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+  .self p {
+    text-align: center;
+    margin: 8px 0 8px 0;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: left;
+    margin-top: 32px;
+  }
+
+  .icon a {
+    height: 32px;
+    width: 32px;
+    background: #000000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+  }
+
+  .icon a:hover{
+    background: orangered;
+  }
+
+  .icon .icon-b {
+    margin: 0 16px;
+  }
+
+  .icon .icon-c {
+    margin: 0 16px 16px 0;
+  }
+  /* tutup homepage */
